@@ -1,0 +1,9 @@
+.logo{
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+.logo img{
+  max-width: 15em;
+}

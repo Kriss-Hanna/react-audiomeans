@@ -1,0 +1,26 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.element-episode{
+  display: flex;
+  list-style-type: none;
+  padding: 3em;
+  justify-content: space-around;
+  background: #f4f4f4 ;
+  margin: 1.25em;
+  font-size: 0.45rem;
+}
+
+ul li {
+  font-size: 1.25rem;
+}
+
+#searchBar {
+  padding: 1em 1em;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+}

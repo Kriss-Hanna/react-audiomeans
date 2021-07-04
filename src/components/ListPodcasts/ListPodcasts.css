@@ -1,0 +1,32 @@
+li {
+  display: flex;
+  list-style-type: none;
+  font-size: 2rem;
+  color: #00BFFF;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+.image-card{
+  height: 24em;
+  width: 18em;
+}
+.element {
+  margin-right: 4em;
+ 
+}
+
+.list-cards{
+  padding: 3em;
+  margin-top: 2em;
+  max-width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card-container {
+    display: flex;
+    max-width: 100vh;
+  }
