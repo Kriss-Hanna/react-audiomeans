@@ -35,7 +35,10 @@ function FormEpisodes() {
 
     newArr.push(newList)
     setList(newArr)
-    setTitle(" ")
+
+    setTitle("")
+    setDate("")
+    setDescription("")
   }
 
   return (
@@ -47,10 +50,14 @@ function FormEpisodes() {
             type="text"
             onInput={(e) => handleTitle(e.target.value)}
             placeholder="Titre de l'épisode"
+            value={title}
           />
 
           <label>Date de publication</label>
-          <input type="Date" onInput={(e) => handleDate(e.target.value)} />
+          <input
+            type="Date" onInput={(e) => handleDate(e.target.value)}
+            value={date}          
+          />
 
           <label>Description de l'épisode</label>
           <textarea
@@ -60,6 +67,7 @@ function FormEpisodes() {
             rows="10"
             onInput={(e) => handleDescription(e.target.value)}
             placeholder="Decrivez l'épisode"
+            value={description}
           ></textarea>
         </div>
         <div className="second-line">
